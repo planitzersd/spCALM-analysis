@@ -2,7 +2,7 @@ README
 
 
 
-**Purpose:** This software package, written in MATLAB 2023a, analyzes flow cytometric fluorescence measurements of single virion-liposome pairs (exported from FlowJo in .csv format) to generate kinetic trajectories of fraction fused pairs over time. The pipeline bins per‑event trajectories, detects an onset time (t\_0) from rate changes, initializes reference fluorescence distributions, and then identifies the relative weights of those reference distributions within each time bin to generate a kinetic trajectory. corresponding to unfused and lipid-mixed pairs The primary entry point is **`main_chirpfit11.m`**; versions with analysis settings used to analyze specific experiments are designated with a suffix.
+**Purpose:** This software package, written in MATLAB 2023a, analyzes flow cytometric fluorescence measurements of single virion-liposome pairs (exported from FlowJo in .csv format) to generate kinetic trajectories of fraction fused pairs over time. The pipeline bins per‑event trajectories, detects an onset time (t\_0) from rate changes, initializes reference fluorescence distributions, and then identifies the relative weights of those reference distributions within each time bin to generate a kinetic trajectory. corresponding to unfused and lipid-mixed pairs. The primary entry point is **`main_chirpfit11.m`**.
 
 
 
